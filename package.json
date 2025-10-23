@@ -1,6 +1,5 @@
 {
   "name": "resume-portfolio",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-"predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.23.24",
@@ -31,8 +30,8 @@
     "globals": "^16.4.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.16",
-    "vite": "^7.1.7",
-npm install -D gh-pages
+    "vite": "^7.1.7"
   },
-"homepage": "https://erai-anbu.github.io/erai_portfolio/"
+  "homepage": "https://erai-anbu.github.io/erai_portfolio/"
 }
+
